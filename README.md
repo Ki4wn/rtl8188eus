@@ -69,5 +69,5 @@ Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue"
 
 <br><br><br>
 ## best regards<br>
-## Christian <kimocoder>
+## Christian aka kimocoder
 christian@aircrack-ng.org
