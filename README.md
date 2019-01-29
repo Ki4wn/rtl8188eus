@@ -52,8 +52,8 @@ Both Linux & Android 8 is supported and various platforms/architectures.
 * Move the 8192EU HAL onto this base (not sure of this one yet)
 ```
 ## Note
-Currently, the driver needs proper testing. Help us out!
-Look at speed (VHT), dmesg/logs, injection, scanning/range.
+Currently, the driver needs proper testing. Help us out!<br>
+Look at speed (VHT), dmesg/logs, injection, scanning/range.<br>
 ... And open a issue report so we may take care of it together.
 
 
