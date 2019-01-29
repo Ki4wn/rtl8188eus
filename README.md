@@ -3,8 +3,8 @@
 Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
 Linux & Android 8 is supported and various boards/architectures.
 
-[![Monitor mode](https://img.shields.io/badge/monitor%20mode-working-brightgreen.svg)](#)
-[![Frame Injection](https://img.shields.io/badge/frame%20injection-working-brightgreen.svg)](#)
+[![Monitor mode](https://img.shields.io/badge/monitor%20mode-supported-green.svg)](#)
+[![Frame Injection](https://img.shields.io/badge/frame%20injection-not%20supported-red.svg)](#)
 [![GitHub version](https://badge.fury.io/gh/kimocoder%2Frtl8188eus.svg)](https://badge.fury.io/gh/kimocoder%2Frtl8188eus)
 [![GitHub issues](https://img.shields.io/github/issues/kimocoder/rtl8188eus.svg)](https://github.com/kimocoder/rtl8188eus/issues)
 [![GitHub forks](https://img.shields.io/github/forks/kimocoder/rtl8188eus.svg)](https://github.com/kimocoder/rtl8188eus/network)
