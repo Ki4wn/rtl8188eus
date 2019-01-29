@@ -63,6 +63,11 @@ Look at speed (VHT), dmesg/logs, injection, scanning/range.<br>
 We'll check the posiblities to move our rtl8812au driver onto this base.<br>
 This looks like a clean, better Realtek base! More information coming.
 
+## [ Performance ]
+This thread will be uødated when an proper iperf3 test is done.
+But we have the results of a packet capture test, see it below
+  * [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/802.11%20packet%20capture%20comparison%20overview%20-%2009%20May%202017.xlsx?raw=true](#)
+
 ## [ Download, Build & Install ] 
 Download
 ```sh
