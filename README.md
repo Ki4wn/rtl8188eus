@@ -30,11 +30,14 @@ This looks like a clean, better Realtek base! More information coming.
 <b>Feel free to contribute to this project, we're allways happy for collaborations!</b>
 <b>Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue" report.</b>
 
-<b>Check the "documents" folder for internal schematics</>
+<b>Check the "documents" folder for internal schematics</b><br>
 <b>And in the "tools" folder there's a Realtek Android application for different tests/debug</b>
 
-![https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-025608.jpg](https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-025608.jpg)
+![https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-002101-01.jpeg](https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-002101-01.jpeg)
 
+![https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-025608-01.jpeg](https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-025608-01.jpeg)
+
+<br><br><br>
 best regards<br>
 <b>Christian <kimocoder></b><br>
 christian@aircrack-ng.org
