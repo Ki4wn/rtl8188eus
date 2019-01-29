@@ -16,7 +16,7 @@
 [![create_ap](https://img.shields.io/badge/create__ap-unknown-yellow.svg)](https://github.com/oblique/create_ap)
 
 
-Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
+Driver for Realtek rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
 This driver supports both Linux & Android 8 on various platforms.
 
 
