@@ -18,16 +18,33 @@ Both Linux & Android 8 is supported and various platforms/architectures.
 ## This driver supports:
 ```
 * Android 8 (checking Android 9 soon)
+  Check the "android" folder for docs and tools.
+* Frame injection support (coming up!)
 * MESH mode operation
+* USB3 activated (and fixed USBModeSwitch)
+* HT Greenfielt capabilities added
 * AP mode
 * Monitor mode
 ```
 
 ## TODO
-```
-* Add more VHT capabilities (HT Greenfield will be added)
+``
+* The driver needs proper testing before moving
+  much further. Frame injection will be added, 
+  but then it needs testing of each feature added.
+   
+  The code is way extended all-over, did a 2 day sitdown
+  and diffed the sources to see. Hopefully, from what I
+  understand from the official changelog there are
+  
+  - signal leakage when mkk tested (fixed)
+  - external lna cck rssi bug (fixed)
+  - and mesh mode of course.
+  
+  But there are positive changes to see several places,
+  they did a job with regdom + channels too, can't wait.
+`
 * Add frame injection (packet injection)
-* Fix the USB3 quirk (and modeswitch).
 * Add old/new kernel support (up to kernel v5.0)
 * Add support for kernels with backported cfg80211 API
 * Add the 8812/8814 & 8821 HAL (and make them all supported in 1 module)
