@@ -28,7 +28,7 @@ Both Linux & Android 8 is supported and various platforms/architectures.
 ```
 
 ## TODO
-``
+```
 * The driver needs proper testing before moving
   much further. Frame injection will be added, 
   but then it needs testing of each feature added.
@@ -43,14 +43,18 @@ Both Linux & Android 8 is supported and various platforms/architectures.
   
   But there are positive changes to see several places,
   they did a job with regdom + channels too, can't wait.
-`
+
+* Add kernel 4.15 __init_timers
 * Add frame injection (packet injection)
 * Add old/new kernel support (up to kernel v5.0)
 * Add support for kernels with backported cfg80211 API
 * Add the 8812/8814 & 8821 HAL (and make them all supported in 1 module)
 * Move the 8192EU HAL onto this base (not sure of this one yet)
 ```
-++++ lots to walkthrough over here..
+## Note
+Currently, the driver needs proper testing. Help us out!
+Look at speed (VHT), dmesg/logs, injection, scanning/range.
+... And open a issue report so we may take care of it together.
 
 
 We'll check the posiblities to move our rtl8812au driver onto this base.<br>
