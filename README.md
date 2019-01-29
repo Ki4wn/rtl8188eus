@@ -173,6 +173,10 @@ macchanger -r wlan1 (example)
 
 * How does Miracast work, and howto setup? take a look here
   [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/Miracast_for_Realtek_WiFi.pdf](#)
+
+Other usefull howtos/schenatics/resources
+
+* Wireless Tools Porting Guide [#](https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/Wireless_tools_porting_guide.pdf)
 ```
 Feel free to contribute to this project, we're allways happy for collaborations!
 Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue" report.
