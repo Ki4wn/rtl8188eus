@@ -109,7 +109,11 @@ For more information on how-to get started,<br>
 look inside the "Android" folder for howto.
 
 ## [ hostapd / wpa_supplicant ]
-We'll bring some notes here afterwards too, until then, read this
+hostapd has been a bit tricky with these drivers, 
+but we strobgly suggest you read these two links below
+
+* [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/Howto%20configure%20STA%20%2B%20SOFTAP.pdf](#)
+
 * [http://blog.fraggod.net/2017/04/27/wifi-hostapd-configuration-for-80211ac-networks.html](http://blog.fraggod.net/2017/04/27/wifi-hostapd-configuration-for-80211ac-networks.html)
 
 Relevant hostapd.conf options used for AP dongle and test:
