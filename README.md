@@ -18,7 +18,7 @@ Both Linux & Android 8 is supported and various platforms/archs.
 ## [ This driver supports ]
 ```
 * Kernels supported up to v5.0+
-* Android 8 (checking Android 9 soon)
+* Android 8 (WIFI-HAL)
   Check the "android" folder for docs and tools.
 * Frame injection support (coming up!)
 * MESH mode operation
