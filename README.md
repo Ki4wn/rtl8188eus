@@ -108,6 +108,9 @@ This driver supports Android 8 (and below),<br>
 For more information on how-to get started,<br>
 look inside the "Android" folder for howto.
 
+## [ hostapd / wpa_supplicant ]
+We'll bring some notes here afterwards too, until then, read this
+* [http://blog.fraggod.net/2017/04/27/wifi-hostapd-configuration-for-80211ac-networks.html](http://blog.fraggod.net/2017/04/27/wifi-hostapd-configuration-for-80211ac-networks.html)
 
 ## [ NetworkManager options ]
 Newer versions of NetworkManager has some options you might find usefull.<br>
