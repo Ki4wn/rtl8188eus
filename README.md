@@ -3,11 +3,14 @@
 ## Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.
 ## Linux & Android 8 is supported and alongside various boards/architectures.
 
+```
 # This driver supports:
 * Android 8 (checking Android 9 soon)
 * MESH mode operation
 * Monitor mode
+```
 
+```
 # TODO
 * Add more VHT capabilities (HT Greenfield will be added)
 * Add frame injection (packet injection)
@@ -16,7 +19,7 @@
 * Add DKMS support
 * Add the 8812/8814 & 8821 HAL (and make them all supported in 1 module)
 * Move the 8192EU HAL onto this base (not sure of this one yet)
-
+```
 ++++ lots to walkthrough over here still
 
 
@@ -29,6 +32,6 @@ This looks like a clean, better Realtek base! More information coming.
 
 
 
-best regards
-Christian <kimocoder>
+best regards<br>
+Christian <kimocoder><br>
 christian@aircrack-ng.org
