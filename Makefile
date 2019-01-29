@@ -89,7 +89,7 @@ CONFIG_USB2_EXTERNAL_POWER = n
 CONFIG_RTW_DEBUG = y
 # default log level is _DRV_INFO_ = 4,
 # please refer to "How_to_set_driver_debug_log_level.doc" to set the available level.
-CONFIG_RTW_LOG_LEVEL = 5
+CONFIG_RTW_LOG_LEVEL = 4
 ######################## Wake On Lan ##########################
 CONFIG_WOWLAN = n
 CONFIG_WAKEUP_TYPE = 0x7 #bit2: deauth, bit1: unicast, bit0: magic pkt.
@@ -190,6 +190,16 @@ ifeq ($(CONFIG_PCI_HCI), y)
 HCI_NAME = pci
 endif
 
+ifeq ($(DEBUG), 1)
+EXTRA_CFLAGS += -DDBG=1 -DCONFIG_RTW_DEBUG -DCONFIG_DBG_COUNTER -DRTW_LOG_LEVEL=4 
+EXTRA_CFLAGS += -DCONFIG_RADIOTAP_WITH_RXDESC
+else ifeq ($(DEBUG), 2)
+EXTRA_CFLAGS += -DDBG=1 -DCONFIG_RTW_DEBUG -DCONFIG_DBG_COUNTER -DRTW_LOG_LEVEL=5
+EXTRA_CFLAGS += -DCONFIG_DEBUG_RTL871X 
+EXTRA_CFLAGS += -DCONFIG_RADIOTAP_WITH_RXDESC 
+else
+EXTRA_CFLAGS += -DDBG=0
+endif
 
 _OS_INTFS_FILES :=	os_dep/osdep_service.o \
 			os_dep/linux/os_intfs.o \
