@@ -24,8 +24,9 @@ Both Linux & Android 8 is supported and various platforms/archs.
 * MESH mode operation
 * USB3 activated (and fixed USBModeSwitch)
 * HT Greenfielt capabilities added
-* AP mode
-* Monitor mode
+* AP mode supported
+* Repeater mode supported
+* Monitor mode supported
 ```
 
 ## [ TODO ]
@@ -156,6 +157,9 @@ macchanger -r wlan1 (example)
 ```
 
 ## [ Help / Debug / Issues ]
+
+* Howto confugure/setup the repeater?
+  [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/How_to_enable_Realtek_RSON_function.pdf](#)
 ```
 Feel free to contribute to this project, we're allways happy for collaborations!
 Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue" report.
