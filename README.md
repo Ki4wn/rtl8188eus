@@ -39,6 +39,20 @@ We'll check the posiblities to move our rtl8812au driver onto this base.<br>
 This looks like a clean, better Realtek base! More information coming.
 
 
+## NetworkManager options
+Newer versions of NetworkManager has some options you might find usefull
+
+```
+[device]
+wifi.scan-rand-mac-address=no
+
+[ifupdown]
+managed=false
+
+[connection]
+wifi.powersave=2
+```
+
 ## Help / Debug / Issues
 ```
 Feel free to contribute to this project, we're allways happy for collaborations!
