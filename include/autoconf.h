@@ -300,7 +300,7 @@
 /*
  * Debug Related Config
  */
-/* #define DBG	1 */
+#define DBG 0	
 
 #define CONFIG_PROC_DEBUG
 
@@ -337,3 +337,6 @@
 /* RX use 1 urb */
 /* #define CONFIG_SINGLE_RECV_BUF */
 #define	DBG_RX_DFRAME_RAW_DATA
+
+#define DBG_TX_POWER_IDX 1
+#define DBG_PG_TXPWR_READ 1
