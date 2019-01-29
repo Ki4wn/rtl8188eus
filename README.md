@@ -26,9 +26,9 @@ Linux & Android 8 is supported and various boards/architectures.
 ```
 * Add more VHT capabilities (HT Greenfield will be added)
 * Add frame injection (packet injection)
-* Enable TX queue in monitor mode
-* Add old/new kernel support (up to kernel v5.0"
-* Add DKMS support
+* Fix the USB3 quirk (and modeswitch).
+* Add old/new kernel support (up to kernel v5.0)
+* Add support for kernels with backported cfg80211 API
 * Add the 8812/8814 & 8821 HAL (and make them all supported in 1 module)
 * Move the 8192EU HAL onto this base (not sure of this one yet)
 ```
