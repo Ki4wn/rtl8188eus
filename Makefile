@@ -47,6 +47,7 @@ CONFIG_PCI_HCI = n
 CONFIG_SDIO_HCI = n
 CONFIG_GSPI_HCI = n
 ########################## Features ###########################
+CONFIG_NET_NS = y
 CONFIG_MP_INCLUDED = y
 CONFIG_POWER_SAVING = n
 CONFIG_USB_AUTOSUSPEND = n
@@ -70,6 +71,11 @@ CONFIG_REDUCE_TX_CPU_LOADING = n
 CONFIG_BR_EXT = y
 CONFIG_TDLS = n
 CONFIG_WIFI_MONITOR = n
+# If you are setting up AP (e.g. by hostapd) in 802.11ac mode, you may have to choose 'y' below.
+# Otherwise some channels may be  flagged 'NO-IR' (i.e. Passive scanning) by the driver.
+# Please check your country's regulatory domain first,
+# to see whether active scanning is permitted by law/regulations on the desired channels.
+CONFIG_DISABLE_REGD_C=n
 CONFIG_MCC_MODE = n
 CONFIG_APPEND_VENDOR_IE_ENABLE = n
 CONFIG_RTW_NAPI = y
@@ -78,6 +84,7 @@ CONFIG_RTW_NETIF_SG = y
 CONFIG_RTW_IPCAM_APPLICATION = n
 CONFIG_RTW_REPEATER_SON = n
 CONFIG_RTW_WIFI_HAL = y
+CONFIG_USB2_EXTERNAL_POWER = n
 ########################## Debug ###########################
 CONFIG_RTW_DEBUG = y
 # default log level is _DRV_INFO_ = 4,
