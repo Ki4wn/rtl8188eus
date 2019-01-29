@@ -88,7 +88,6 @@ For more information on how-to get started, look inside the "Android" folder for
 Newer versions of NetworkManager has some options you might find usefull.<br>
 Simply add these lines into the NetworkManager.conf
 
-[device]
 ```
 [device]
 wifi.scan-rand-mac-address=no
@@ -98,6 +97,10 @@ managed=false
 
 [connection]
 wifi.powersave=2
+```
+Change MAC or set random?
+```
+macchanger -r wlan1 (example)
 ```
 
 ## Help / Debug / Issues
