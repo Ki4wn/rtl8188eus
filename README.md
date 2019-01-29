@@ -3,6 +3,18 @@
 Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
 Linux & Android 8 is supported and various boards/architectures.
 
+[![Monitor mode](https://img.shields.io/badge/monitor%20mode-working-brightgreen.svg)](#)
+[![Frame Injection](https://img.shields.io/badge/frame%20injection-working-brightgreen.svg)](#)
+[![GitHub version](https://badge.fury.io/gh/kimocoder%2Frtl8188eus.svg)](https://badge.fury.io/gh/kimocoder%2Frtl8188eus)
+[![GitHub issues](https://img.shields.io/github/issues/kimocoder/rtl8188eus.svg)](https://github.com/kimocoder/rtl8188eus/issues)
+[![GitHub forks](https://img.shields.io/github/forks/kimocoder/rtl8188eus.svg)](https://github.com/kimocoder/rtl8188eus/network)
+[![GitHub stars](https://img.shields.io/github/stars/kimocoder/rtl8188eus.svg)](https://github.com/kimocoder/rtl8188eus/stargazers)
+[![GitHub license](https://img.shields.io/github/license/kimocoder/rtl8188eus.svg)](https://github.com/kimocoder/rtl8188eus/blob/master/LICENSE)
+<br>
+[![Kali](https://img.shields.io/badge/Kali-supported-blue.svg)](https://www.kali.org)
+[![aircrack-ng](https://img.shields.io/badge/aircrack--ng-supported-blue.svg)](https://github.com/aircrack-ng/aircrack-ng)
+[![wifite2](https://img.shields.io/badge/wifite2-supported-blue.svg)](https://github.com/derv82/wifite2)
+
 ## This driver supports:
 ```
 * Android 8 (checking Android 9 soon)
@@ -40,6 +52,6 @@ Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue"
 ![https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-025608-01.jpeg](https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-025608-01.jpeg)
 
 <br><br><br>
-best regards<br>
-<b>Christian <kimocoder></b><br>
+## best regards<br>
+## Christian <kimocoder>
 christian@aircrack-ng.org
