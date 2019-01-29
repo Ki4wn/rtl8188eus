@@ -112,6 +112,21 @@ look inside the "Android" folder for howto.
 We'll bring some notes here afterwards too, until then, read this
 * [http://blog.fraggod.net/2017/04/27/wifi-hostapd-configuration-for-80211ac-networks.html](http://blog.fraggod.net/2017/04/27/wifi-hostapd-configuration-for-80211ac-networks.html)
 
+Relevant hostapd.conf options used for AP dongle and test:
+```
+hw_mode=a
+ieee80211n=1
+require_ht=1
+ieee80211ac=1
+require_vht=1
+
+channel=100
+vht_oper_chwidth=1
+vht_oper_centr_freq_seg0_idx=106
+ht_capab=[HT40+][SHORT-GI-40]
+vht_capab=[SHORT-GI-80][MAX-MPDU-11454][MAX-A-MPDU-LEN-EXP7]
+```
+
 ## [ NetworkManager options ]
 Newer versions of NetworkManager has some options you might find usefull.<br>
 Simply add these lines into the NetworkManager.conf
@@ -146,4 +161,4 @@ Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue"
 <br><br><br>
 ## best regards<br>
 ## Christian aka kimocoder
-christian@aircrack-ng.org
+# christian@aircrack-ng.org
