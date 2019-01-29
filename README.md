@@ -13,7 +13,7 @@
 [![wifite2](https://img.shields.io/badge/wifite2-supported-blue.svg)](https://github.com/derv82/wifite2)
 [![wireshark](https://img.shields.io/badge/wireshark-unknown-yellow.svg)](https://github.com/wireshark/wireshark)
 [![kismet](https://img.shields.io/badge/kismet-unknown-yellow.svg)](https://github.com/kismetwireless/kismet)
-[![create_ap](https://img.shields.io/badge/create__ap-unknown-yellow.svg)](https://github.com/oblique/create_ap
+[![create_ap](https://img.shields.io/badge/create__ap-unknown-yellow.svg)](https://github.com/oblique/create_ap)
 
 
 Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
@@ -29,10 +29,10 @@ This driver supports both Linux & Android 8 on various platforms.
 * USB3 activated (and fixed USBModeSwitch)
 * HT Greenfielt capabilities added
 * Modes supported
-  * MESH mode operation
-  * AP+STA mode supported
-  * Repeater mode supported
-  * Monitor mode supported
+   * MESH mode operation
+   * AP+STA mode supported
+   * Repeater mode supported
+   * Monitor mode supported
 ```
 
 ## [ TODO / Known Issues ]
