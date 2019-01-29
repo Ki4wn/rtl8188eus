@@ -158,7 +158,10 @@ macchanger -r wlan1 (example)
 
 ## [ Help / Debug / Issues ]
 
-* Howto confugure/setup the repeater?
+* Howto configure/setup MESH mode?
+  [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/Quick_Start_Guide_for_Realtek_Mesh_v1.0.0_20180112.pdf](#)
+
+* Howto configure/setup the repeater?
   [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/How_to_enable_Realtek_RSON_function.pdf](#)
 ```
 Feel free to contribute to this project, we're allways happy for collaborations!
@@ -170,8 +173,3 @@ Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue"
 ![https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-002101-01.jpeg](https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-002101-01.jpeg)
 <br><br>
 ![https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-025608-01.jpeg](https://github.com/kimocoder/rtl8812au/blob/v5.2.20/documents/Screenshot_20190129-025608-01.jpeg)
-
-<br><br><br>
-## best regards<br>
-## Christian aka kimocoder
-# christian@aircrack-ng.org
