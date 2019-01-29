@@ -40,8 +40,10 @@ This looks like a clean, better Realtek base! More information coming.
 
 
 ## NetworkManager options
-Newer versions of NetworkManager has some options you might find usefull
+Newer versions of NetworkManager has some options you might find usefull.<br>
+Simply add these lines into the NetworkManager.conf
 
+[device]
 ```
 [device]
 wifi.scan-rand-mac-address=no
