@@ -38,6 +38,46 @@ Linux & Android 8 is supported and various boards/architectures.
 We'll check the posiblities to move our rtl8812au driver onto this base.<br>
 This looks like a clean, better Realtek base! More information coming.
 
+## Download, Build & Install
+Download
+```
+$ git clone -b v5.3.9 https://github.com/kimocodee/rtl8188eus.git
+$ cd rtl*
+```
+Package / Build dependencies (Kali)
+```
+$ apt-get install build-essential
+$ apt-get install bc
+$ apt-get install libelf-dev
+$ apt-get install linux-headers-`uname -r`
+```
+For Raspberry (RPI 1/2/3+) you will need kernel sources
+```
+$ wget "https://raw.githubusercontent.com/notro/rpi-source/master/rpi-source" -O /usr/bin/rpi-source
+$ chmod 755 /usr/bin/rpi-source
+$ rpi-source 
+```
+Then you need to download and compile the driver on the RPI
+```
+$ git clone https://github.com/kimocoder/rtl8XXXau -b v5.3.9
+$ cd rtl*
+$ make
+$ sudo cp 8XXXau.ko /lib/modules/`uname -r`/kernel/drivers/net/wireless
+$ sudo depmod -a
+$ sudo modprobe 8XXXau
+```
+then run this step to change platform in Makefile, For RPI 1/2/3+:
+```
+$ sed -i 's/CONFIG_PLATFORM_I386_PC = y/CONFIG_PLATFORM_I386_PC = n/g' Makefile
+$ sed -i 's/CONFIG_PLATFORM_ARM_RPI = n/CONFIG_PLATFORM_ARM_RPI = y/g' Makefile
+```
+But for RPI 3 B+ you will need to run those below
+which builds the ARM64 arch driver:
+```
+$ sed -i 's/CONFIG_PLATFORM_I386_PC = y/CONFIG_PLATFORM_I386_PC = n/g' Makefile
+$ sed -i 's/CONFIG_PLATFORM_ARM64_RPI = n/CONFIG_PLATFORM_ARM64_RPI = y/g' Makefile
+```
+
 ## Android users
 This driver supports Android 8 (and below), 
 For more information on how-to get started, look inside the "Android" folder for help.
