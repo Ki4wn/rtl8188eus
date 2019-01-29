@@ -1,6 +1,6 @@
 # Realtek RTL8188EUS v5.3.9
 
-## Driver support for rtl8188eu, rtl8188eus and rtl8188etv chips working under both old and new kernels.
+## Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.
 ## Linux & Android 8 is supported and alongside various boards/architectures.
 
 # This driver supports:
