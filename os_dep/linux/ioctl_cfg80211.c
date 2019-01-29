@@ -8963,9 +8963,11 @@ static void rtw_cfg80211_init_vht_capab_ex(_adapter *padapter, struct ieee80211_
 		vht_cap->vht_mcs.rx_highest = MAX_BIT_RATE_80MHZ_NSS1;
 	}
 
-	if (pvhtpriv->sgi_80m)
+	if (pvhtpriv->sgi_80m) {
+		RTW_INFO("cfg80211_init_vht_capab: +short_gi_80\n");
 		vht_cap->cap |= IEEE80211_VHT_CAP_SHORT_GI_80;
-
+	}
+		
 	vht_cap->cap |= (pvhtpriv->ampdu_len << IEEE80211_VHT_CAP_MAX_A_MPDU_LENGTH_EXPONENT_SHIFT);
 }
 
