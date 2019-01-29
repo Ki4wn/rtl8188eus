@@ -166,6 +166,9 @@ macchanger -r wlan1 (example)
 
 * Howto configure/setup the repeater?
   [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/How_to_enable_Realtek_RSON_function.pdf](#)
+
+* How does Miracast work, and howto setup? take a look here
+  [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/Miracast_for_Realtek_WiFi.pdf](#)
 ```
 Feel free to contribute to this project, we're allways happy for collaborations!
 Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue" report.
