@@ -38,6 +38,10 @@ Linux & Android 8 is supported and various boards/architectures.
 We'll check the posiblities to move our rtl8812au driver onto this base.<br>
 This looks like a clean, better Realtek base! More information coming.
 
+## Android users
+This driver supports Android 8 (and below), 
+For more information on how-to get started, look inside the "Android" folder for help.
+
 
 ## NetworkManager options
 Newer versions of NetworkManager has some options you might find usefull.<br>
