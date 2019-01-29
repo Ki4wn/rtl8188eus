@@ -46,6 +46,8 @@ Both Linux & Android 8 is supported and various platforms/archs.
 
 * Add kernel 4.15 __init_timers support
 * Add frame injection (packet injection)
+* Add more debug and stats (count frames)
+* Add more output to "iw"
 * Add old/new kernel support (up to kernel v5.0)
 * Add support for kernels with backported cfg80211 API
 * Add the 8812/8814 & 8821 HAL (and make them all supported in 1 module)
