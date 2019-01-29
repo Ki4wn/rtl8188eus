@@ -101,8 +101,9 @@ $ sed -i 's/CONFIG_PLATFORM_ARM64_RPI = n/CONFIG_PLATFORM_ARM64_RPI = y/g' Makef
 ```
 
 ## Android users
-This driver supports Android 8 (and below), 
-For more information on how-to get started, look inside the "Android" folder for help.
+This driver supports Android 8 (and below),<br>
+For more information on how-to get started,<br>
+look inside the "Android" folder for howto.
 
 
 ## NetworkManager options
