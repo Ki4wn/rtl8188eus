@@ -179,7 +179,8 @@ Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue"
 <b>Check the "documents" folder for internal schematics</b><br>
 <b>And in the "tools" folder there's a Realtek Android application for different tests/debug</b>
 
-Below we found an Android apk used to debug, downlosd it
+## [ Android APK for debug ]
+Below we have an Android apk used to debug, downlosd it 
   * [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/tools/RtkMpTool.apk](#)
     But read the README and guide with specs in the "documents" folder first
     *. https://github.com/kimocoder/rtl8188eus/tree/v5.3.9/tools
