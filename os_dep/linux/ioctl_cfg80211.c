@@ -9412,6 +9412,9 @@ static struct cfg80211_ops rtw_cfg80211_ops = {
 #if (LINUX_VERSION_CODE < KERNEL_VERSION(3, 6, 0))
 	.set_channel = cfg80211_rtw_set_channel,
 #endif
+#if (LINUX_VERSION_CODE >= KERNEL_VERSION(3, 8, 0))
+	.set_monitor_channel = cfg80211_rtw_set_monitor_channel,
+#endif
 	/* .auth = cfg80211_rtw_auth, */
 	/* .assoc = cfg80211_rtw_assoc,	 */
 #endif /* CONFIG_AP_MODE */
