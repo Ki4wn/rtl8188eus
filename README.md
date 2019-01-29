@@ -39,12 +39,12 @@ Both Linux & Android 8 is supported and various platforms/architectures.
   
   - signal leakage when mkk tested (fixed)
   - external lna cck rssi bug (fixed)
-  - and mesh mode of course.
+  - and mesh mode is supported of course.
   
   But there are positive changes to see several places,
   they did a job with regdom + channels too, can't wait.
 
-* Add kernel 4.15 __init_timers
+* Add kernel 4.15 __init_timers support
 * Add frame injection (packet injection)
 * Add old/new kernel support (up to kernel v5.0)
 * Add support for kernels with backported cfg80211 API
