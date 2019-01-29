@@ -28,6 +28,11 @@
 #define CEILING_NEG(X) ((X - (int)(X)) < 0 ? (int)(X - 1) : (int)(X))
 #define ceil(X) (((X) > 0) ? CEILING_POS(X) : CEILING_NEG(X))
 
+static int rtfloor(float x) {
+    int xi = (int)x;
+    return x < xi ? xi - 1 : xi;
+}
+#if 0
 int rtfloor(float x)
 {
 	int i = x - 2;
@@ -36,6 +41,7 @@ int rtfloor(float x)
 		;
 	return i;
 }
+#endif
 #endif
 
 #ifdef CONFIG_MP_INCLUDED
@@ -3317,7 +3323,7 @@ void L_SIG_generator(
 	_rtw_memset(pPMacTxInfo->LSIG, 0, 3);
 	ByteToBit(pPMacTxInfo->LSIG, (bool *)sig_bi, 3);
 }
-
+#endif
 
 void CRC8_generator(
 	bool	*out,
