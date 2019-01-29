@@ -3,7 +3,7 @@
 Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
 Both Linux & Android 8 is supported and various platforms/archs.
 
-[![Monitor mode](https://img.shields.io/badge/monitor%20mode-supported-green.svg)](#)
+[![Monitor mode](https://img.shields.io/badge/monitor%20mode-supported-brightgreen.svg)](#)
 [![Frame Injection](https://img.shields.io/badge/frame%20injection-not%20supported-red.svg)](#)
 [![GitHub version](https://badge.fury.io/gh/kimocoder%2Frtl8188eus.svg)](https://badge.fury.io/gh/kimocoder%2Frtl8188eus)
 [![GitHub issues](https://img.shields.io/github/issues/kimocoder/rtl8188eus.svg)](https://github.com/kimocoder/rtl8188eus/issues)
@@ -125,7 +125,7 @@ Change MAC or set random?
 macchanger -r wlan1 (example)
 ```
 
-## Help / Debug / Issues
+## [ Help / Debug / Issues ]
 ```
 Feel free to contribute to this project, we're allways happy for collaborations!
 Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue" report.
