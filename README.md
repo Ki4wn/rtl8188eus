@@ -1,7 +1,7 @@
-# Realtek RTL8188EUS v5.3.9
+# Realtek RTL8188EUS v5.3.9 (2018)
 
-<h1>Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.</h1><br>
-<h1>Linux & Android 8 is supported and various boards/architectures.</h1>
+Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
+Linux & Android 8 is supported and various boards/architectures.
 
 ## This driver supports:
 ```
@@ -27,9 +27,11 @@ We'll check the posiblities to move our rtl8812au driver onto this base.<br>
 This looks like a clean, better Realtek base! More information coming.
 
 
-<b>Feel free to contribute to this project, we're allways happy for collaborations!</b>
-<b>Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue" report.</b>
-
+## Help / Debug / Issues
+```
+Feel free to contribute to this project, we're allways happy for collaborations!
+Got questions/suggestions or maybe you'd encountered issues/bugs, open a "issue" report.
+```
 <b>Check the "documents" folder for internal schematics</b><br>
 <b>And in the "tools" folder there's a Realtek Android application for different tests/debug</b>
 
