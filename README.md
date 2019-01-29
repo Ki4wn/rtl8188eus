@@ -1,7 +1,7 @@
 # Realtek RTL8188EUS v5.3.9 (2018)
 
 Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
-Both Linux & Android 8 is supported and various platforms/archs.
+This driver supports both Linux & Android 8 on various platforms.
 
 [![Monitor mode](https://img.shields.io/badge/monitor%20mode-supported-brightgreen.svg)](#)
 [![Frame Injection](https://img.shields.io/badge/frame%20injection-not%20supported-red.svg)](#)
@@ -21,12 +21,13 @@ Both Linux & Android 8 is supported and various platforms/archs.
 * Android 8 (WIFI-HAL)
   Check the "android" folder for docs and tools.
 * Frame injection support (coming up!)
-* MESH mode operation
 * USB3 activated (and fixed USBModeSwitch)
 * HT Greenfielt capabilities added
-* AP mode supported
-* Repeater mode supported
-* Monitor mode supported
+* Modes supported
+  * MESH mode operation
+  * AP+STA mode supported
+  * Repeater mode supported
+  * Monitor mode supported
 ```
 
 ## [ TODO / Known Issues ]
