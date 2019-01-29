@@ -338,5 +338,8 @@
 /* #define CONFIG_SINGLE_RECV_BUF */
 #define	DBG_RX_DFRAME_RAW_DATA
 
+// See PHY_GetTxPowerIndex_8812A for more info on:
+#define CONFIG_USE_EXTERNAL_POWER // NOT USB2.0 power, so no 500mA power constraint, no limitation in Power by Rate
+
 #define DBG_TX_POWER_IDX 1
 #define DBG_PG_TXPWR_READ 1
