@@ -1,7 +1,7 @@
 # Realtek RTL8188EUS v5.3.9 (2018)
 
 Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
-Both Linux & Android 8 is supported and various platforms/architectures.
+Both Linux & Android 8 is supported and various platforms/archs.
 
 [![Monitor mode](https://img.shields.io/badge/monitor%20mode-supported-green.svg)](#)
 [![Frame Injection](https://img.shields.io/badge/frame%20injection-not%20supported-red.svg)](#)
@@ -15,7 +15,7 @@ Both Linux & Android 8 is supported and various platforms/architectures.
 [![aircrack-ng](https://img.shields.io/badge/aircrack--ng-supported-blue.svg)](https://github.com/aircrack-ng/aircrack-ng)
 [![wifite2](https://img.shields.io/badge/wifite2-supported-blue.svg)](https://github.com/derv82/wifite2)
 
-## This driver supports:
+## [ This driver supports ]
 ```
 * Android 8 (checking Android 9 soon)
   Check the "android" folder for docs and tools.
@@ -27,7 +27,7 @@ Both Linux & Android 8 is supported and various platforms/architectures.
 * Monitor mode
 ```
 
-## TODO
+## [ TODO ]
 ```
 * The driver needs proper testing before moving
   much further. Frame injection will be added, 
@@ -51,7 +51,7 @@ Both Linux & Android 8 is supported and various platforms/architectures.
 * Add the 8812/8814 & 8821 HAL (and make them all supported in 1 module)
 * Move the 8192EU HAL onto this base (not sure of this one yet)
 ```
-## Note
+## [ Note ]
 Currently, the driver needs proper testing. Help us out!<br>
 Look at speed (VHT), dmesg/logs, injection, scanning/range.<br>
 ... And open a issue report so we may take care of it together.
@@ -60,53 +60,53 @@ Look at speed (VHT), dmesg/logs, injection, scanning/range.<br>
 We'll check the posiblities to move our rtl8812au driver onto this base.<br>
 This looks like a clean, better Realtek base! More information coming.
 
-## Download, Build & Install
+## [ Download, Build & Install ] 
 Download
-```
+```sh
 $ git clone -b v5.3.9 https://github.com/kimocodee/rtl8188eus.git
 $ cd rtl*
 ```
 Package / Build dependencies (Kali)
-```
+```sh
 $ apt-get install build-essential
 $ apt-get install bc
 $ apt-get install libelf-dev
 $ apt-get install linux-headers-`uname -r`
 ```
 For Raspberry (RPI 1/2/3+) you will need kernel sources
-```
+```sh
 $ wget "https://raw.githubusercontent.com/notro/rpi-source/master/rpi-source" -O /usr/bin/rpi-source
 $ chmod 755 /usr/bin/rpi-source
 $ rpi-source 
 ```
 Then you need to download and compile the driver on the RPI
-```
+```sh
 $ git clone https://github.com/kimocoder/rtl8XXXau -b v5.3.9
 $ cd rtl*
 $ make
-$ sudo cp 8XXXau.ko /lib/modules/`uname -r`/kernel/drivers/net/wireless
-$ sudo depmod -a
-$ sudo modprobe 8XXXau
+$ cp 8XXXau.ko /lib/modules/`uname -r`/kernel/drivers/net/wireless
+$ epmod -a
+$ modprobe 8XXXau
 ```
 then run this step to change platform in Makefile, For RPI 1/2/3+:
-```
+```sh
 $ sed -i 's/CONFIG_PLATFORM_I386_PC = y/CONFIG_PLATFORM_I386_PC = n/g' Makefile
 $ sed -i 's/CONFIG_PLATFORM_ARM_RPI = n/CONFIG_PLATFORM_ARM_RPI = y/g' Makefile
 ```
 But for RPI 3 B+ you will need to run those below
 which builds the ARM64 arch driver:
-```
+```sh
 $ sed -i 's/CONFIG_PLATFORM_I386_PC = y/CONFIG_PLATFORM_I386_PC = n/g' Makefile
 $ sed -i 's/CONFIG_PLATFORM_ARM64_RPI = n/CONFIG_PLATFORM_ARM64_RPI = y/g' Makefile
 ```
 
-## Android users
+## [ Android users ]
 This driver supports Android 8 (and below),<br>
 For more information on how-to get started,<br>
 look inside the "Android" folder for howto.
 
 
-## NetworkManager options
+## [ NetworkManager options ]
 Newer versions of NetworkManager has some options you might find usefull.<br>
 Simply add these lines into the NetworkManager.conf
 
