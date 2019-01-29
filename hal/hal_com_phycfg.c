@@ -58,6 +58,10 @@ const char *const _pg_txpwr_src_str[] = {
 #define DBG_PG_TXPWR_READ 0
 #endif
 
+#ifndef DBG_TX_POWER_IDX
+#define DBG_TX_POWER_IDX 0
+#endif
+
 #if DBG_PG_TXPWR_READ
 static void dump_pg_txpwr_info_2g(void *sel, TxPowerInfo24G *txpwr_info, u8 rfpath_num, u8 max_tx_cnt)
 {
@@ -1382,7 +1386,6 @@ PHY_GetTxPowerByRateBase(
 		RTW_PRINT("%s invalid RfPath:%d\n", __func__, RfPath);
 		return 0;
 	}
-
 	if (Band != BAND_ON_2_4G && Band != BAND_ON_5G) {
 		RTW_PRINT("%s invalid Band:%d\n", __func__, Band);
 		return 0;
@@ -1395,6 +1398,9 @@ PHY_GetTxPowerByRateBase(
 			, RateSection, Band, RfPath);
 		return 0;
 	}
+	if (DBG_TX_POWER_IDX)
+		RTW_INFO( "TXPWR: by-rate-base [%sG][%c] RateSection:%d = %d\n",
+			(Band == BAND_ON_2_4G) ? "2.4" : "5", rf_path_char(RfPath), RateSection, Value );
 
 	if (Band == BAND_ON_2_4G)
 		value = pHalData->TxPwrByRateBase2_4G[RfPath][RateSection];
@@ -2729,6 +2735,10 @@ PHY_SetTxPowerByRate(
 		RTW_INFO("Invalid RateIndex %d in %s\n", rateIndex, __FUNCTION__);
 		return;
 	}
+        if (DBG_TX_POWER_IDX)
+		RTW_INFO( "TXPWR: by-rate-base [%sG][%c] Rate:%s = %d\n",
+			(Band == BAND_ON_2_4G) ? "2.4" : "5", rf_path_char(RFPath),
+			MGN_RATE_STR(rateIndex), Value );
 
 	pHalData->TxPwrByRateOffset[Band][RFPath][rateIndex] = Value;
 }
@@ -2767,10 +2777,6 @@ phy_set_tx_power_level_by_path(
 		}
 	}
 }
-
-#ifndef DBG_TX_POWER_IDX
-#define DBG_TX_POWER_IDX 0
-#endif
 
 VOID
 PHY_SetTxPowerIndexByRateArray(
