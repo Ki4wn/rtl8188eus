@@ -15,7 +15,7 @@ Both Linux & Android 8 is supported and various platforms/archs.
 [![aircrack-ng](https://img.shields.io/badge/aircrack--ng-supported-blue.svg)](https://github.com/aircrack-ng/aircrack-ng)
 [![wifite2](https://img.shields.io/badge/wifite2-supported-blue.svg)](https://github.com/derv82/wifite2)
 
-## [ This driver supports ]
+## [ Features ]
 ```
 * Kernels supported up to v5.0+
 * Android 8 (WIFI-HAL)
@@ -29,7 +29,7 @@ Both Linux & Android 8 is supported and various platforms/archs.
 * Monitor mode supported
 ```
 
-## [ TODO ]
+## [ TODO / Known Issues ]
 ```
 * The driver needs proper testing before moving
   much further. Frame injection will be added, 
@@ -110,7 +110,7 @@ $ sed -i 's/CONFIG_PLATFORM_I386_PC = y/CONFIG_PLATFORM_I386_PC = n/g' Makefile
 $ sed -i 's/CONFIG_PLATFORM_ARM64_RPI = n/CONFIG_PLATFORM_ARM64_RPI = y/g' Makefile
 ```
 
-## [ Android users ]
+## [ Android Users ]
 This driver supports Android 8 (and below),<br>
 For more information on how-to get started,<br>
 look inside the "Android" folder for howto.
@@ -138,7 +138,7 @@ ht_capab=[HT40+][SHORT-GI-40]
 vht_capab=[SHORT-GI-80][MAX-MPDU-11454][MAX-A-MPDU-LEN-EXP7]
 ```
 
-## [ NetworkManager options ]
+## [ NetworkManager Options ]
 Newer versions of NetworkManager has some options you might find usefull.<br>
 Simply add these lines into the NetworkManager.conf
 
