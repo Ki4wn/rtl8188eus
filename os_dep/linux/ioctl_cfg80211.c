@@ -8901,6 +8901,7 @@ static void rtw_cfg80211_init_vht_capab_ex(_adapter *padapter, struct ieee80211_
 	struct mlme_priv	*pmlmepriv = &padapter->mlmepriv;
 	struct vht_priv	*pvhtpriv = &pmlmepriv->vhtpriv;
 
+	RTW_INFO("cfg80211_init_vht_capab start\n");	
 	rtw_vht_use_default_setting(padapter);
 
 	/* RX LDPC */
