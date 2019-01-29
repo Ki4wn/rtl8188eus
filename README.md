@@ -1,8 +1,5 @@
 # Realtek RTL8188EUS v5.3.9 (2018)
 
-Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
-This driver supports both Linux & Android 8 on various platforms.
-
 [![Monitor mode](https://img.shields.io/badge/monitor%20mode-supported-brightgreen.svg)](#)
 [![Frame Injection](https://img.shields.io/badge/frame%20injection-not%20supported-red.svg)](#)
 [![GitHub version](https://badge.fury.io/gh/kimocoder%2Frtl8188eus.svg)](https://badge.fury.io/gh/kimocoder%2Frtl8188eus)
@@ -16,7 +13,12 @@ This driver supports both Linux & Android 8 on various platforms.
 [![wifite2](https://img.shields.io/badge/wifite2-supported-blue.svg)](https://github.com/derv82/wifite2)
 [![wireshark](https://img.shields.io/badge/wireshark-unknown-yellow.svg)](https://github.com/wireshark/wireshark)
 [![kismet](https://img.shields.io/badge/kismet-unknown-yellow.svg)](https://github.com/kismetwireless/kismet)
-[![create_ap](https://img.shields.io/badge/create__ap-unknown-yellow.svg)](https://github.com/oblique/create_ap)
+[![create_ap](https://img.shields.io/badge/create__ap-unknown-yellow.svg)](https://github.com/oblique/create_ap
+
+
+Driver support for rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
+This driver supports both Linux & Android 8 on various platforms.
+
 
 ## [ Features ]
 ```
