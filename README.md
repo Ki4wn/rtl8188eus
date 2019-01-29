@@ -158,6 +158,9 @@ macchanger -r wlan1 (example)
 
 ## [ Help / Debug / Issues ]
 
+* Wonder what the different modes really are? "monitor" "station" etc
+  Find the answer here [https://wireless.wiki.kernel.org/en/users/Documentation/modes](#)
+
 * Howto configure/setup MESH mode?
   [https://github.com/kimocoder/rtl8188eus/blob/v5.3.9/documents/Quick_Start_Guide_for_Realtek_Mesh_v1.0.0_20180112.pdf](#)
 
