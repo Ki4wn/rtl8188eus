@@ -19,7 +19,7 @@
 Driver for Realtek rtl8188eu, rtl8188eus and rtl8188etv chipsets.<br>
 This driver supports both Linux & Android 8 on various platforms.
 
-
+asdasd
 ## [ Features ]
 ```
 * Kernels supported up to v5.0+
